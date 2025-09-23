@@ -58,6 +58,9 @@ To analyze (1) the visual examples of three variants of our CartoonCodec scheme 
 
 We have provided the real-time demonstration video of our CartoonCodec evaluated on the NVIDIA A40 GPU with 48 GB memory. In this video, our CartoonCodec is used to encode and decode 10 testing sequences, each consisting of 108 frames. Upon completion, the average encoding and decoding time per video is shown, which is consistent with the results presented in Table~\ref{table:complexity_ours_diffGPU}. In addition, three decompressed videos are randomly selected for playback. It is worth noting that we adopt Pixar as the target cartoon style for manipulation.
 
+[![IMAGE ALT TEXT](https://github.com/xiaonae/CartoonCodec/releases/download/V1/A40_latest.mp4)](https://github.com/xiaonae/CartoonCodec/releases/download/V1/A40_latest.mp4)
+
+
 
 
 
