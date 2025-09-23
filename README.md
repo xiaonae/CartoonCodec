@@ -1,7 +1,5 @@
 # CartoonCodec
 
-https://github.com/user-attachments/assets/dbd560be-8356-44a0-8dba-3dcd397406fd
-
 ## Abstract
 
 The rapid growth of video-based social applications has intensified the demand for efficient video transmission and personalized cartoon-style customization. Existing solutions typically apply talking face video codecs followed by cartoon-style control algorithms. However, the paradigm often leads to unsatisfactory compression performance and increased inference latency.
@@ -9,6 +7,8 @@ To address these limitations, we propose CartoonCodec, a novel generative framew
 Extensive experimental results show that CartoonCodec outperforms baselines in compression efficiency across video reconstruction and cartoon-style control tasks while achieving the fastest encoding and decoding speeds. CartoonCodec provides key insights for advancing real-time face video communication with cartoon-style customization. 
 
 
-## Quality Comparisons (Similar Bitrate)
+## Visual Comparisons on Video Reconstruction Task  (Similar Bitrate)
 
-### To verify the performance, we compare our proposed IFVC scheme with the latest hybrid video coding standard VVC and five generative compression schemes, including FOMM, FOMM2.0, Face2FaceRHO, Face_vid2vid and CFTE. For better quality comparisons, please download the videos (mp4).
+### To evaluate the subjective quality on the video reconstruction task, we compare our proposed CartoonCodec scheme with the latest hybrid video coding standard VVC and five generative compression schemes, including FOMM, FV2V, CFTE, and CTTR, at similar bit rates. For better quality comparisons, please download the videos (mp4).
+
+[![IMAGE ALT TEXT](https://github.com/user-attachments/assets/dbd560be-8356-44a0-8dba-3dcd397406fd)](https://github.com/user-attachments/assets/dbd560be-8356-44a0-8dba-3dcd397406fd)
