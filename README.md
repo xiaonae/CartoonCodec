@@ -4,7 +4,7 @@
 
 The rapid growth of video-based social applications has intensified the demand for efficient video transmission and personalized cartoon-style customization. Existing solutions typically apply talking face video codecs followed by cartoon-style control algorithms. However, the paradigm often leads to unsatisfactory compression performance and increased inference latency. To address these limitations, we propose CartoonCodec, a novel generative framework that unifies face video coding and cartoon-style control into an end-to-end process. Our framework encodes facial video sequences into compact motion feature representations, which are then compressed and transmitted alongside text prompts to achieve low-bitrate communication. To embed control into the coding process while ensuring efficient compression, a text-guided adaptive layer selection mechanism relying on compact facial representations is introduced to dynamically select and optimize the most influential layers in the generators.  In addition, a self-supervised domain adaptation training strategy is proposed to construct both multimodal and unimodal data pairs for the computation of diverse loss functions. This enables domain adaptation across the decoupled space. Extensive experimental results show that CartoonCodec outperforms baselines in compression efficiency across video reconstruction and cartoon-style control tasks while achieving the fastest encoding and decoding speeds. CartoonCodec provides key insights for advancing real-time face video communication with cartoon-style customization. 
 
-## 2. Visual Comparisons on the Video Reconstruction and Cartoon-Style Control Tasks  (Similar Bitrate)
+## 2. Visual Comparisons on the Video Reconstruction and Cartoon-Style Control Tasks  (Similar Bit rates)
 
 ### 2.1 Visual Comparisons on the Video Reconstruction Task  (Similar Bit Rates)
 
@@ -14,7 +14,7 @@ To assess subjective quality in video reconstruction, we conduct comparisons bet
 
 ### 2.2 Visual Comparisons on the Cartoon-Style Control Task  (Similar Bit Rates)
 
-To assess subjective quality in Cartoon-Style Control, we conduct comparisons between our proposed CartoonCodec scheme, VVC+DiffCLIP, VVC+NADA, VVC+DeltaEdit, and VVC+FRESCO at similar bit rates. Note that the cartoon-style control task includes five cases: Pixar, Disney Princess, Sketch, Zombie, and Anime Painting. For clearer observation of the experimental results, the corresponding videos are provided in downloadable MP4 format.
+To assess subjective quality in Cartoon-Style Control, we conduct comparisons between our proposed CartoonCodec scheme, VVC+DiffCLIP, VVC+NADA, VVC+DeltaEdit, and VVC+FRESCO at similar bit rates. Note that the cartoon-style control task includes five cases: Disney Princess, Pixar, Sketch, Zombie, and Anime Painting. For clearer observation of the experimental results, the corresponding videos are provided in downloadable MP4 format.
 
 #### Disney Princess Control Case (Similar Bit Rates)
 
@@ -30,7 +30,7 @@ To assess subjective quality in Cartoon-Style Control, we conduct comparisons be
 
 #### Zombie Control Case (Similar Bit Rates)
 
-[![IMAGE ALT TEXT](https://github.com/user-attachments/assets/28a2c243-ffd4-4ae0-9f39-d17022565eb6)](https://github.com/user-attachments/assets/28a2c243-ffd4-4ae0-9f39-d17022565eb6)
+[![IMAGE ALT TEXT](https://github.com/user-attachments/assets/167aa752-aa88-448e-b0b4-752edbab766f)](https://github.com/user-attachments/assets/167aa752-aa88-448e-b0b4-752edbab766f)
 
 #### Anime Painting Control Case (Similar Bit Rates)
 
