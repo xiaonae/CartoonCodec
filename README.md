@@ -1,4 +1,4 @@
-# CartoonCodec
+# CartoonCodec: A Generative Framework for Talking Face Video Coding and Cartoon-Style Control
 
 ## 1. Abstract
 
@@ -20,25 +20,42 @@ To assess subjective quality in video reconstruction, we conduct comparisons bet
 
 Visual comparison among VVC+DiffCLIP~\cite{bross2021overview,kim2022diffusionclip}, VVC+NADA~\cite{bross2021overview,gal2022stylegan}, VVC+DeltaEdit~\cite{bross2021overview,lyu2023deltaedit}, VVC+FRESCO~\cite{bross2021overview,yang2024fresco}, and CartoonCodec (Ours) on the cartoon-style control task at similar bit rates. Note that, as stated in Section V-B of the initial manuscript, the cartoon-style control task includes five cases: Pixar, Disney Princess, Sketch, Zombie, and Anime Painting.
 
-Disney Princess
+#### Disney Princess
 
 [![IMAGE ALT TEXT](https://github.com/user-attachments/assets/07dc3be0-95d9-456f-9008-55a1ec6e45c8)](https://github.com/user-attachments/assets/07dc3be0-95d9-456f-9008-55a1ec6e45c8)
 
-Pixar
+#### Pixar
 
 [![IMAGE ALT TEXT](https://github.com/user-attachments/assets/39e7cf71-83b5-4759-bce2-0f530866f4c7)](https://github.com/user-attachments/assets/39e7cf71-83b5-4759-bce2-0f530866f4c7)
 
-Sketch
+#### Sketch
 
 [![IMAGE ALT TEXT](https://github.com/user-attachments/assets/ca7cf5fd-257e-4765-8d7c-5775b96544f4)](https://github.com/user-attachments/assets/ca7cf5fd-257e-4765-8d7c-5775b96544f4)
 
-Zombie
+#### Zombie
 
 [![IMAGE ALT TEXT](https://github.com/user-attachments/assets/28a2c243-ffd4-4ae0-9f39-d17022565eb6)](https://github.com/user-attachments/assets/28a2c243-ffd4-4ae0-9f39-d17022565eb6)
 
-Anime Painting
+#### Anime Painting
 
 [![IMAGE ALT TEXT](https://github.com/user-attachments/assets/173620ab-4d8d-4457-a4c1-e020055b4610)](https://github.com/user-attachments/assets/173620ab-4d8d-4457-a4c1-e020055b4610)
+
+## 3. Visual results that evaluate the performance of VVC and our CartoonCodec on video sequences with diverse backgrounds and clothes under similar bit rates. These sequences are selected from the VoxCeleb dataset. 
+For clearer observation of the experimental results, the corresponding videos are provided in downloadable mp4 format.
+
+## 4. Visual results of Our CartoonCodec scheme (Fig. 10 of the initial manuscript)
+Comparison of the visual examples of three variants of our CartoonCodec scheme and the disentangled poses and expressions of these variants on the Pixar control case
+
+[![IMAGE ALT TEXT](https://github.com/user-attachments/assets/271865c4-c5e2-4054-8eaf-e6f4eb38048c)](https://github.com/user-attachments/assets/271865c4-c5e2-4054-8eaf-e6f4eb38048c)
+
+## 5. Visual results of the Ablation study (Fig. 11 of the initial manuscript)
+Comparison of the visual examples of three variants of our CartoonCodec scheme and the disentangled poses and expressions of these variants on the Pixar control case
+
+[![IMAGE ALT TEXT](https://github.com/user-attachments/assets/bb4d0a57-627b-4d36-968e-2bdce0d6a2d3)](https://github.com/user-attachments/assets/bb4d0a57-627b-4d36-968e-2bdce0d6a2d3)
+
+## 5. Real-Time Demonstration Video of Our CartoonCodec
+
+We have provided the real-time demonstration video of our CartoonCodec evaluated on the NVIDIA A40 GPU with 48 GB memory. In this video, our CartoonCodec is used to encode and decode 10 testing sequences, each consisting of 108 frames. Upon completion, the average encoding and decoding time per video is shown, which is consistent with the results presented in Table~\ref{table:complexity_ours_diffGPU}. In addition, three decompressed videos are randomly selected for playback. It is worth noting that we adopt Pixar as the target cartoon style for manipulation.
 
 
 
