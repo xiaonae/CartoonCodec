@@ -10,12 +10,40 @@ Extensive experimental results show that CartoonCodec outperforms baselines in c
 
 ### 2.1 Visual Comparisons on the Video Reconstruction Task  (Similar Bitrate)
 
-To assess subjective quality in video reconstruction, we conduct comparisons between our proposed CartoonCodec scheme, the latest hybrid video coding standard (VVC), and four generative compression schemes (FOMM, FV2V, CFTE, and CTTR) at similar bit rates. The evaluation videos are made available in MP4 format for more comprehensive quality inspection.
+To assess subjective quality in video reconstruction, we conduct comparisons between our proposed CartoonCodec scheme, the latest hybrid video coding standard (VVC), and four generative compression schemes (FOMM, FV2V, CFTE, and CTTR) at similar bit rates. For clearer observation of the experimental results, the corresponding videos are provided in downloadable mp4 format.
 
 [![IMAGE ALT TEXT](https://github.com/user-attachments/assets/dbd560be-8356-44a0-8dba-3dcd397406fd)](https://github.com/user-attachments/assets/dbd560be-8356-44a0-8dba-3dcd397406fd)
 
 ### 2.2 Visual Comparisons on the Cartoon-Style Control Task  (Similar Bitrate)
 
-To assess subjective quality in video reconstruction, we conduct comparisons between our proposed CartoonCodec scheme, the latest hybrid video coding standard (VVC), and four generative compression schemes (FOMM, FV2V, CFTE, and CTTR) at similar bit rates. The evaluation videos are made available in MP4 format for more comprehensive quality inspection.
+To assess subjective quality in video reconstruction, we conduct comparisons between our proposed CartoonCodec scheme, the latest hybrid video coding standard (VVC), and four generative compression schemes (FOMM, FV2V, CFTE, and CTTR) at similar bit rates. For clearer observation of the experimental results, the corresponding videos are provided in downloadable mp4 format.
 
-[![IMAGE ALT TEXT](https://github.com/user-attachments/assets/dbd560be-8356-44a0-8dba-3dcd397406fd)](https://github.com/user-attachments/assets/dbd560be-8356-44a0-8dba-3dcd397406fd)
+Visual comparison among VVC+DiffCLIP~\cite{bross2021overview,kim2022diffusionclip}, VVC+NADA~\cite{bross2021overview,gal2022stylegan}, VVC+DeltaEdit~\cite{bross2021overview,lyu2023deltaedit}, VVC+FRESCO~\cite{bross2021overview,yang2024fresco}, and CartoonCodec (Ours) on the cartoon-style control task at similar bit rates. Note that, as stated in Section V-B of the initial manuscript, the cartoon-style control task includes five cases: Pixar, Disney Princess, Sketch, Zombie, and Anime Painting.
+
+Disney Princess
+
+[![IMAGE ALT TEXT](https://github.com/user-attachments/assets/07dc3be0-95d9-456f-9008-55a1ec6e45c8)](https://github.com/user-attachments/assets/07dc3be0-95d9-456f-9008-55a1ec6e45c8)
+
+Pixar
+
+[![IMAGE ALT TEXT](https://github.com/user-attachments/assets/39e7cf71-83b5-4759-bce2-0f530866f4c7)](https://github.com/user-attachments/assets/39e7cf71-83b5-4759-bce2-0f530866f4c7)
+
+Sketch
+
+[![IMAGE ALT TEXT](https://github.com/user-attachments/assets/ca7cf5fd-257e-4765-8d7c-5775b96544f4)](https://github.com/user-attachments/assets/ca7cf5fd-257e-4765-8d7c-5775b96544f4)
+
+Zombie
+
+[![IMAGE ALT TEXT](https://github.com/user-attachments/assets/28a2c243-ffd4-4ae0-9f39-d17022565eb6)](https://github.com/user-attachments/assets/28a2c243-ffd4-4ae0-9f39-d17022565eb6)
+
+Anime Painting
+
+[![IMAGE ALT TEXT](https://github.com/user-attachments/assets/173620ab-4d8d-4457-a4c1-e020055b4610)](https://github.com/user-attachments/assets/173620ab-4d8d-4457-a4c1-e020055b4610)
+
+
+
+
+
+
+
+
