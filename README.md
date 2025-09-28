@@ -1,4 +1,4 @@
-# CartoonCodec: A Generative Framework for Talking Face Video Coding and Cartoon-Style Control
+# CartoonCodec: Generative Talking Face Video Coding with Cartoon-Style Customization
 
 ## 1. Abstract
 
