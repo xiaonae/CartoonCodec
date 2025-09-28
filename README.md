@@ -41,22 +41,22 @@ To assess our CartoonCodec scheme in more realistic scenarios, we selected testi
 
 [![IMAGE ALT TEXT](https://github.com/user-attachments/assets/6270b9ee-d3b6-4712-ae28-e669cbc68648)](https://github.com/user-attachments/assets/6270b9ee-d3b6-4712-ae28-e669cbc68648)
 
+## 4. Real-Time Demonstration Video of Our CartoonCodec
 
-## 4. Visual results of our CartoonCodec on the cartoon-style control task (Fig. 10 of the initial manuscript)
+We provide a real-time demonstration video of our CartoonCodec running on an NVIDIA A40 GPU with 48 GB memory. The video is available for download at https://github.com/xiaonae/CartoonCodec/releases/download/V1/A40_latest.mp4. The video includes the encoding and decoding of 10 testing sequences (108 frames each). The average encoding and decoding time per video is presented, which is consistent with the results in Table III of our response letter. In addition, three decompressed videos are randomly selected for playback. For this demonstration, Pixar is used as the target cartoon style. 
+
+## 5. Visual results of our CartoonCodec on the cartoon-style control task (Fig. 10 of the initial manuscript)
 
 To facilitate clearer observation of the experimental results, the corresponding videos are provided in downloadable MP4 format.
 
 [![IMAGE ALT TEXT](https://github.com/user-attachments/assets/271865c4-c5e2-4054-8eaf-e6f4eb38048c)](https://github.com/user-attachments/assets/271865c4-c5e2-4054-8eaf-e6f4eb38048c)
 
-## 5. Visual results of the Ablation study (Fig. 11 of the initial manuscript)
+## 6. Visual results of the Ablation study (Fig. 11 of the initial manuscript)
 
 To analyze (1) the visual examples of three variants of our CartoonCodec scheme and (2) the disentangled poses and expressions of these variants on the Pixar control case, we present the following results. For clearer observation of the experimental results, the corresponding videos are provided in downloadable MP4 format.
 
 [![IMAGE ALT TEXT](https://github.com/user-attachments/assets/bb4d0a57-627b-4d36-968e-2bdce0d6a2d3)](https://github.com/user-attachments/assets/bb4d0a57-627b-4d36-968e-2bdce0d6a2d3)
 
-## 6. Real-Time Demonstration Video of Our CartoonCodec
-
-We provide a real-time demonstration video of our CartoonCodec running on an NVIDIA A40 GPU with 48 GB memory. The video is available for download at https://github.com/xiaonae/CartoonCodec/releases/download/V1/A40_latest.mp4. The video includes the encoding and decoding of 10 testing sequences (108 frames each). The average encoding and decoding time per video is reported, which is consistent with the results in Table I of our response letter. In addition, three decompressed videos are randomly selected for playback. For this demonstration, Pixar is used as the target cartoon style. 
 
 
 
