@@ -38,7 +38,7 @@ To assess subjective quality in Cartoon-Style Control, we conduct comparisons be
 
 ## 3. Visual results on the VoxCeleb testing dataset (Similar Bit Rates)
 
-To assess our CartoonCodec scheme in more realistic scenarios, we selected testing sequences from the VoxCeleb dataset, an in-the-wild dataset that naturally includes diverse background conditions. Specifically, we compare our CartoonCodec with VVC on the video reconstruction task at similar bit rates. In addition, we evaluate our CartoonCodec on the cartoon-style control task at similar bit rates. To facilitate clearer observation of the experimental results, the corresponding videos are provided in downloadable MP4 format.
+To assess our CartoonCodec scheme in more realistic scenarios, we selected testing sequences from the VoxCeleb dataset, an in-the-wild dataset that naturally includes complex background conditions. Specifically, we compare our CartoonCodec with VVC on the video reconstruction task at similar bit rates. In addition, we evaluate our CartoonCodec on the cartoon-style control task at similar bit rates. To facilitate clearer observation of the experimental results, the corresponding videos are provided in downloadable MP4 format.
 
 [![IMAGE ALT TEXT](https://github.com/user-attachments/assets/6270b9ee-d3b6-4712-ae28-e669cbc68648)](https://github.com/user-attachments/assets/6270b9ee-d3b6-4712-ae28-e669cbc68648)
 
