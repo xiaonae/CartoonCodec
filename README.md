@@ -50,7 +50,7 @@ We provide a demonstration video of our CartoonCodec running on an NVIDIA A40 GP
 
 To facilitate clearer observation of the experimental results, the corresponding videos are provided in downloadable MP4 format.
 
-[![IMAGE ALT TEXT](https://github.com/user-attachments/assets/271865c4-c5e2-4054-8eaf-e6f4eb38048c)](https://github.com/user-attachments/assets/271865c4-c5e2-4054-8eaf-e6f4eb38048c)
+[![IMAGE ALT TEXT](https://github.com/user-attachments/assets/2b86f149-3054-4f40-a83c-42c60dc46b0b)](https://github.com/user-attachments/assets/2b86f149-3054-4f40-a83c-42c60dc46b0b)
 
 ## 6. Visual results of the Ablation study (Fig. 11 of the initial manuscript)
 
