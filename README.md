@@ -15,7 +15,7 @@ To assess subjective quality in video reconstruction, we conduct comparisons bet
 
 ### 2.2 Visual Comparisons on the Cartoon-Style Control Task  (Similar Bit Rates)
 
-To assess subjective quality in Cartoon-Style Control, we conduct comparisons between our proposed CartoonCodec scheme, VVC+DiffCLIP, VVC+NADA, VVC+DeltaEdit, and VVC+FRESCO at similar bit rates. Note that the cartoon-style control task includes five cases: Disney Princess, Pixar, Sketch, Zombie, and Anime Painting. For clearer observation of the experimental results, the corresponding videos are provided in downloadable MP4 format.
+To assess subjective quality in Cartoon-Style Control, we conduct comparisons between our proposed CartoonCodec scheme, VVC+DiffCLIP, VVC+NADA, VVC+DeltaEdit, and VVC+SwiftEdit at similar bit rates. Note that the cartoon-style control task includes four cases: Pixar, Sketch, Zombie, and Anime Painting. For clearer observation of the experimental results, the corresponding videos are provided in downloadable MP4 format.
 
 #### Pixar Control Case (Similar Bit Rates)
 
@@ -27,33 +27,23 @@ To assess subjective quality in Cartoon-Style Control, we conduct comparisons be
 
 #### Zombie Control Case (Similar Bit Rates)
 
-[![IMAGE ALT TEXT](https://github.com/user-attachments/assets/167aa752-aa88-448e-b0b4-752edbab766f)](https://github.com/user-attachments/assets/167aa752-aa88-448e-b0b4-752edbab766f)
+[![IMAGE ALT TEXT](https://github.com/user-attachments/assets/76f2c1d8-bef0-4e8a-8d7c-bb047db0e6c8)](https://github.com/user-attachments/assets/76f2c1d8-bef0-4e8a-8d7c-bb047db0e6c8)
 
 #### Anime Painting Control Case (Similar Bit Rates)
 
-[![IMAGE ALT TEXT](https://github.com/user-attachments/assets/173620ab-4d8d-4457-a4c1-e020055b4610)](https://github.com/user-attachments/assets/173620ab-4d8d-4457-a4c1-e020055b4610)
+[![IMAGE ALT TEXT](https://github.com/user-attachments/assets/a215e56e-fd9d-400e-9768-0ef8a6391349)](https://github.com/user-attachments/assets/a215e56e-fd9d-400e-9768-0ef8a6391349)
 
 ## 3. Visual results on the VoxCeleb testing dataset (Similar Bit Rates)
 
 To assess our CartoonCodec scheme in more realistic scenarios, we selected testing sequences from the VoxCeleb dataset, an in-the-wild dataset that naturally includes complex background conditions. Specifically, we compare our CartoonCodec with VVC on the video reconstruction task at similar bit rates. In addition, we evaluate our CartoonCodec on the cartoon-style control task at similar bit rates. To facilitate clearer observation of the experimental results, the corresponding videos are provided in downloadable MP4 format.
 
-[![IMAGE ALT TEXT](https://github.com/user-attachments/assets/6270b9ee-d3b6-4712-ae28-e669cbc68648)](https://github.com/user-attachments/assets/6270b9ee-d3b6-4712-ae28-e669cbc68648)
+[![IMAGE ALT TEXT](https://github.com/user-attachments/assets/807de64f-fe13-4ab5-8626-dd19e22cb41e)](https://github.com/user-attachments/assets/807de64f-fe13-4ab5-8626-dd19e22cb41e)
 
-## 4. Video demonstration of our CartoonCodec’s runtime performance
-
-We provide a demonstration video of our CartoonCodec running on an NVIDIA A40 GPU with 48 GB of memory, showcasing the measurement process of encoding and decoding time of CartoonCodec. The video is available for download at https://github.com/xiaonae/CartoonCodec/releases/download/V1/A40_latest.mp4. The video includes the encoding and decoding of 10 testing sequences (108 frames each). The average encoding and decoding time per video is presented, which is consistent with the results in Table III of our response letter. That is, the total runtime on the encoding side is 5.86734 s, and the total runtime on the decoding side is 3.09567 s. In addition, three decompressed videos are randomly selected for playback. For this demonstration, Pixar is used as the target cartoon style. 
-
-## 5. Visual results of our CartoonCodec on the cartoon-style control task (Fig. 10 of the initial manuscript)
-
-To facilitate clearer observation of the experimental results, the corresponding videos are provided in downloadable MP4 format.
-
-[![IMAGE ALT TEXT](https://github.com/user-attachments/assets/2b86f149-3054-4f40-a83c-42c60dc46b0b)](https://github.com/user-attachments/assets/2b86f149-3054-4f40-a83c-42c60dc46b0b)
-
-## 6. Visual results of the Ablation study (Fig. 11 of the initial manuscript)
+## 4. Visual results of the Ablation study 
 
 To analyze (1) the visual examples of three variants of our CartoonCodec scheme and (2) the disentangled poses and expressions of these variants on the Pixar control case, we present the following results. For clearer observation of the experimental results, the corresponding videos are provided in downloadable MP4 format.
 
-[![IMAGE ALT TEXT](https://github.com/user-attachments/assets/bb4d0a57-627b-4d36-968e-2bdce0d6a2d3)](https://github.com/user-attachments/assets/bb4d0a57-627b-4d36-968e-2bdce0d6a2d3)
+[![IMAGE ALT TEXT](https://github.com/user-attachments/assets/1d66a353-d5d4-4243-b58b-042feacb34a8)](https://github.com/user-attachments/assets/1d66a353-d5d4-4243-b58b-042feacb34a8)
 
 
 
