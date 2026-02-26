@@ -21,12 +21,9 @@ To assess subjective quality in Cartoon-Style Control, we conduct comparisons be
 
 [![IMAGE ALT TEXT](https://github.com/user-attachments/assets/7db62fdf-8b01-4eca-9082-460d289872ac)](https://github.com/user-attachments/assets/7db62fdf-8b01-4eca-9082-460d289872ac)
 
-
-
-
 #### Sketch Control Case (Similar Bit Rates)
 
-[![IMAGE ALT TEXT](https://github.com/user-attachments/assets/ca7cf5fd-257e-4765-8d7c-5775b96544f4)](https://github.com/user-attachments/assets/ca7cf5fd-257e-4765-8d7c-5775b96544f4)
+[![IMAGE ALT TEXT](https://github.com/user-attachments/assets/746051e4-6379-420e-82c9-f8148c9ffa9d)](https://github.com/user-attachments/assets/746051e4-6379-420e-82c9-f8148c9ffa9d)
 
 #### Zombie Control Case (Similar Bit Rates)
 
