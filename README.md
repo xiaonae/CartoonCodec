@@ -17,13 +17,12 @@ To assess subjective quality in video reconstruction, we conduct comparisons bet
 
 To assess subjective quality in Cartoon-Style Control, we conduct comparisons between our proposed CartoonCodec scheme, VVC+DiffCLIP, VVC+NADA, VVC+DeltaEdit, and VVC+FRESCO at similar bit rates. Note that the cartoon-style control task includes five cases: Disney Princess, Pixar, Sketch, Zombie, and Anime Painting. For clearer observation of the experimental results, the corresponding videos are provided in downloadable MP4 format.
 
-#### Disney Princess Control Case (Similar Bit Rates)
-
-[![IMAGE ALT TEXT](https://github.com/user-attachments/assets/07dc3be0-95d9-456f-9008-55a1ec6e45c8)](https://github.com/user-attachments/assets/07dc3be0-95d9-456f-9008-55a1ec6e45c8)
-
 #### Pixar Control Case (Similar Bit Rates)
 
-[![IMAGE ALT TEXT](https://github.com/user-attachments/assets/39e7cf71-83b5-4759-bce2-0f530866f4c7)](https://github.com/user-attachments/assets/39e7cf71-83b5-4759-bce2-0f530866f4c7)
+[![IMAGE ALT TEXT](https://github.com/user-attachments/assets/7db62fdf-8b01-4eca-9082-460d289872ac)](https://github.com/user-attachments/assets/7db62fdf-8b01-4eca-9082-460d289872ac)
+
+
+
 
 #### Sketch Control Case (Similar Bit Rates)
 
