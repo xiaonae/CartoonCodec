@@ -1,4 +1,4 @@
-<img width="112" height="53" alt="image" src="https://github.com/user-attachments/assets/c6018af3-0140-48bd-b814-95efe4ed4b57" /><img width="2168" height="62" alt="image" src="https://github.com/user-attachments/assets/3c719dc2-8e7d-4730-aaa3-d934bb93ae63" /># CartoonCodec: Generative Talking Face Video Coding with Cartoon-Style Customization
+# CartoonCodec: Generative Talking Face Video Coding with Cartoon-Style Customization
 
 ## 0. Video demos for the revised manuscript 
 
